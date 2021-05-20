@@ -47,7 +47,7 @@ Parametric algorithms are prone to high bias. A parametric algorithm has a set n
 
 Now to evaluate how accurate our model is, we can use different metrics but here we'll use accuracy score.
 
-[img]https://bit.ly/2T5Grf1[/img]
+![equation](https://bit.ly/2T5Grf1)
 
 Accuracy Score produces a result according to the sum of the number of times our model predicted no correctly(True Negative) and yes correctly(True Positive) by the total number of predictions.
 ```
