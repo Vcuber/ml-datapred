@@ -1,4 +1,5 @@
-# HEADINGS
+# Predicting Data using Machine Learning
+
 I'm gonna talk to you about what goes on behind the code to give you an understanding of how it works. We can divide our code into 3 parts. We first have the Pre-Processing of the data, then we have the Machine Learning aspect of it where we train the model using the data and finally, we have the prediction where we give x data into the model to return a prediction after training the model with a pre-existing data set. 
 
 ## Pre-Processing
