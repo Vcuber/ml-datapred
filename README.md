@@ -12,14 +12,21 @@ df = pd.read_csv('sampleDataset.csv')
 There are a few things that we do with this DataFrame before we're ready to train our model. This is called pre-processing. During pre-processing, we help clean our dataset. This helps is providing a more accurate and clean model execution.  
 
 We use the shape function from pandas to return the number of rows and colums in the DataFrame.
-`df.shape`
+```
+df.shape
+```
 
 The dropna function can be used to trim the empty data. Dropna is used to drop rows where at least one row is missing.
-`df.dropna()`
+```
+df.dropna()
+```
+
 After this, we can compare the value from the original DataFrame that we got using shape function with the value from the shape function after using Dropna. We can find that there's almost some reduction in the number of rows in the DataFrame now. 
 
 Now we check the dataset. If there are Yes and No values in the columns, we replace them with 1's and 0's since models understand only numbers. To do so, we use the replace function.
-`df['col_name'].replace({'No': 0, 'Yes': 1}, inplace  =  True)`
+```
+df['col_name'].replace({'No': 0, 'Yes': 1}, inplace =  True)
+```
 
 ## Training
 
@@ -33,7 +40,7 @@ x_train, x_test, y_train, y_test  =  train_test_split(x, y, test_size=0.20, rand
 In the above line, we split the data into training and testing data where 80% of the data is used for training while 20% is used for testing.
 We also shuffle our data to prevent any bias.
 
-What is **bias**?
+### What is **bias**?
 We can think of Bias as the accuracy in our predictions. If there exists a high bias, it can cause our prediction to be inaccurate. 
 
 _"Bias is the  algorithm's tendency to consistently learn the wrong thing by not taking into account all the information in the data(underfitting)."_ - Foreman
