@@ -80,7 +80,7 @@ It is intuitively the ability of the classifier to find all the positive samples
 
 ![equation](https://bit.ly/3unUtFT)
 
-<u>**F1 Score*</u> is the weighted average of precision and recall scores. Therefore, this score takes both false positives and false negatives into accout. Intuitively, it's not easy to understand as accuract, but F1 is usually more useful than accuracy, especially if there's an uneven class distribution.
+<u>**F1 Score**</u> is the weighted average of precision and recall scores. Therefore, this score takes both false positives and false negatives into accout. Intuitively, it's not easy to understand as accuract, but F1 is usually more useful than accuracy, especially if there's an uneven class distribution.
 
 ```
 from sklearn.metrics import f1_score
