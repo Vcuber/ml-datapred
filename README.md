@@ -65,7 +65,7 @@ score = accuracy_score(y_test, y_pred)
 ```
 The higher the accuracy score is, the better and more accurate our model is and so are our predictions. 
 
-![equation](https://bit.ly/3vbjIfA)
+![equation](https://bit.ly/34hIPRX)
 
 <u>**Precision Score**</u> is the ratio of correctly predicted positive observations to the total predicted positive observations. High precision rates to the low false positive rate.  
 
